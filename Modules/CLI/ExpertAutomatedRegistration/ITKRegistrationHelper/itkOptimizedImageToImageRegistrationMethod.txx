@@ -283,7 +283,7 @@ void OptimizedImageToImageRegistrationMethod<TImage>::GenerateData()
       if( this->GetUseFixedImageMaskObject() )
         {
         double val;
-        if( this->GetFixedImageMaskObject()->ValueAtInWorldSpace( fixedPoint, val ) )
+        if( this->GetFixedImageMaskObject()->ValueAt( fixedPoint, val ) )
           {
           if( val == 0 )
             {
@@ -351,7 +351,7 @@ void OptimizedImageToImageRegistrationMethod<TImage>::GenerateData()
       if( this->GetUseFixedImageMaskObject() )
         {
         double val;
-        if( this->GetFixedImageMaskObject()->ValueAtInWorldSpace( fixedPoint, val ) )
+        if( this->GetFixedImageMaskObject()->ValueAt( fixedPoint, val ) )
           {
           if( val == 0 )
             {

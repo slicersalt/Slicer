@@ -338,7 +338,7 @@ list_conditional_append(Slicer_BUILD_LandmarkRegistration Slicer_REMOTE_DEPENDEN
 
 Slicer_Remote_Add(SurfaceToolbox
   GIT_REPOSITORY "${EP_GIT_PROTOCOL}://github.com/slicersalt/SlicerSurfaceToolbox"
-  GIT_TAG 26715cf15e90bfd23fcbe35b09581bddb6267360 # slicersalt-2025-01-05-e8b8f70
+  GIT_TAG 389b2204d3da496bf33bb350a5a1f0070707e584 # slicersalt-2025-01-05-e8b8f70
   OPTION_NAME Slicer_BUILD_SurfaceToolbox
   OPTION_DEPENDS "Slicer_USE_PYTHONQT"
   LABELS REMOTE_MODULE
